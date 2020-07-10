@@ -6,6 +6,7 @@ const App = () => {
   return (
     <div className={styles.appContainer}>
       <div className={styles.title}>BGrules</div>
+      <Search />
     </div>
   );
 };
