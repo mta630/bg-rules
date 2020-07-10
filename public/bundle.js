@@ -94,7 +94,19 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_app_modules_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/app.modules.css */ \"./client/src/modules/app.modules.css\");\n/* harmony import */ var _modules_app_modules_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_app_modules_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _modules_app_modules_css__WEBPACK_IMPORTED_MODULE_1___default.a.appContainer\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _modules_app_modules_css__WEBPACK_IMPORTED_MODULE_1___default.a.title\n  }, \"BGrules\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./client/src/components/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_app_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/app.module.css */ \"./client/src/modules/app.module.css\");\n/* harmony import */ var _modules_app_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_app_module_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _modules_app_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.appContainer\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _modules_app_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.title\n  }, \"BGrules\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./client/src/components/App.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/SearchResults.jsx":
+/*!*************************************************!*\
+  !*** ./client/src/components/SearchResults.jsx ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_searchResults_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/searchResults.module.css */ \"./client/src/modules/searchResults.module.css\");\n/* harmony import */ var _modules_searchResults_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_searchResults_module_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nvar SearchResults = function SearchResults(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _modules_searchResults_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.resultContainer\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _modules_searchResults_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.title\n  }, \"Search Results\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _modules_searchResults_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.subTitle\n  }, \"results for term:\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SearchResults);\n\n//# sourceURL=webpack:///./client/src/components/SearchResults.jsx?");
 
 /***/ }),
 
@@ -118,18 +130,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var hist
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _components_App_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/App.jsx */ \"./client/src/components/App.jsx\");\n/* harmony import */ var _history_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./history.js */ \"./client/src/history.js\");\n\n\n\n\n\nvar routing = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[\"Router\"], {\n  history: _history_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[\"Switch\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[\"Route\"], {\n  exact: true,\n  path: \"/\",\n  component: _components_App_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n}))));\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(routing, document.getElementById(\"app\"));\n\n//# sourceURL=webpack:///./client/src/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _components_App_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/App.jsx */ \"./client/src/components/App.jsx\");\n/* harmony import */ var _components_SearchResults_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/SearchResults.jsx */ \"./client/src/components/SearchResults.jsx\");\n/* harmony import */ var _history_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./history.js */ \"./client/src/history.js\");\n\n\n\n\n\n\nvar routing = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[\"Router\"], {\n  history: _history_js__WEBPACK_IMPORTED_MODULE_5__[\"default\"]\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[\"Switch\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[\"Route\"], {\n  exact: true,\n  path: \"/\",\n  component: _components_App_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[\"Route\"], {\n  path: \"/pages/searchResults\",\n  component: _components_SearchResults_jsx__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n}))));\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(routing, document.getElementById(\"app\"));\n\n//# sourceURL=webpack:///./client/src/index.jsx?");
 
 /***/ }),
 
-/***/ "./client/src/modules/app.modules.css":
-/*!********************************************!*\
-  !*** ./client/src/modules/app.modules.css ***!
-  \********************************************/
+/***/ "./client/src/modules/app.module.css":
+/*!*******************************************!*\
+  !*** ./client/src/modules/app.module.css ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./app.modules.css */ \"./node_modules/css-loader/dist/cjs.js?!./client/src/modules/app.modules.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./client/src/modules/app.modules.css?");
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./app.module.css */ \"./node_modules/css-loader/dist/cjs.js?!./client/src/modules/app.module.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./client/src/modules/app.module.css?");
+
+/***/ }),
+
+/***/ "./client/src/modules/searchResults.module.css":
+/*!*****************************************************!*\
+  !*** ./client/src/modules/searchResults.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./searchResults.module.css */ \"./node_modules/css-loader/dist/cjs.js?!./client/src/modules/searchResults.module.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./client/src/modules/searchResults.module.css?");
 
 /***/ }),
 
@@ -169,14 +192,25 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./client/src/modules/app.modules.css":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./client/src/modules/app.modules.css ***!
-  \********************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./client/src/modules/app.module.css":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./client/src/modules/app.module.css ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".KRFvwJ2mkhFcS2kWU5Ae1 {\\n  background-color: gainsboro;\\n  text-align: center;\\n}\\n\\n._2e-w7-y-3ZACQl3g4nYJgc {\\n  font-size: 10vw;\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"appContainer\": \"KRFvwJ2mkhFcS2kWU5Ae1\",\n\t\"title\": \"_2e-w7-y-3ZACQl3g4nYJgc\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./client/src/modules/app.modules.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"._21-2NM_8xIRQ1Prp2_rinF {\\n  background-color: gainsboro;\\n  text-align: center;\\n}\\n\\n._2oo4N4CwxweLPFVOQSRZOl {\\n  font-size: 10vw;\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"appContainer\": \"_21-2NM_8xIRQ1Prp2_rinF\",\n\t\"title\": \"_2oo4N4CwxweLPFVOQSRZOl\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./client/src/modules/app.module.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./client/src/modules/searchResults.module.css":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./client/src/modules/searchResults.module.css ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./client/src/modules/searchResults.module.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
