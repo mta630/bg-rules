@@ -1,9 +1,9 @@
 import React, { createContext, useState } from "react";
 
-export const SearchContext = createContext();
+const SearchContext = createContext(null);
 
 // This context provider is passed to any component requiring the context
-export const SearchProvider = ({ children }) => {
+const SearchProvider = ({ children }) => {
   const [results, setResults] = useState([]);
   const [query, setQuery] = useState([]);
 
@@ -20,3 +20,7 @@ export const SearchProvider = ({ children }) => {
     </SearchContext.Provider>
   );
 };
+
+SearchProvider.context = SearchContext;
+
+export default SearchProvider;

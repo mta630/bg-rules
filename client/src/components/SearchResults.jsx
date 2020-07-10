@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import styles from "../modules/searchResults.module.css";
-import { SearchContext } from "../context/SearchContext.jsx";
+import { SearchProvider } from "../context/SearchContext.jsx";
 
 const SearchResults = (props) => {
-  const searchContext = useContext(SearchContext);
+  const search = useContext(SearchProvider.context);
 
   return (
     <div className={styles.resultContainer}>

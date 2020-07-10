@@ -2,12 +2,12 @@ import React, { useState, useContext } from "react";
 import styles from "../modules/search.module.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import SearchContext from "../context/SearchContext.jsx";
+import SearchProvider from "../context/SearchContext.jsx";
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [results, setResults] = useState([]);
-  const search = useContext(SearchContext);
+  const search = useContext(SearchProvider.context);
 
   const handleSearch = (query) => {
     axios
