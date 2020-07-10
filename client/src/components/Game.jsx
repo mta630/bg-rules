@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../modules/game.modules.css";
+import styles from "../modules/game.module.css";
 
 const Game = () => {
   return <div></div>;
